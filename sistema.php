@@ -108,44 +108,44 @@
 	 	</div>
 		<?php
 						// Funciones PHP del pin GPIO 02
-					if ($_POST[GPOI02_1]) {exec("sudo python /var/www/pidomo.mx/py/GPIO02/GPIO02_0.py");}
+					if ($_POST[GPOI02_1]) {exec("sudo python /var/www/html/py/GPIO02/GPIO02_0.py");}
 
-					if ($_POST[GPIO02_0]) {exec("sudo python /var/www/pidomo.mx/py/GPIO02/GPIO02_1.py");
+					if ($_POST[GPIO02_0]) {exec("sudo python /var/www/html/py/GPIO02/GPIO02_1.py");
 																						}
 	         // Funciones PHP del pin GPIO 03
-					if ($_POST[GPOI03_1]) {exec("sudo python /var/www/pidomo.mx/py/GPIO03/GPIO03_0.py");}
+					if ($_POST[GPOI03_1]) {exec("sudo python /var/www/html/py/GPIO03/GPIO03_0.py");}
 
-				  if ($_POST[GPIO03_0]) {exec("sudo python /var/www/pidomo.mx/py/GPIO03/GPIO03_1.py");}
+				        if ($_POST[GPIO03_0]) {exec("sudo python /var/www/html/py/GPIO03/GPIO03_1.py");}
 
 					// Funciones PHP del pin GPIO 04
-					if ($_POST[GPOI04_1]) {exec("sudo python /var/www/pidomo.mx/py/GPIO04/GPIO04_0.py");}
+					if ($_POST[GPOI04_1]) {exec("sudo python /var/www/html/py/GPIO04/GPIO04_0.py");}
 
-					if ($_POST[GPIO04_0]) {exec("sudo python /var/www/pidomo.mx/py/GPIO04/GPIO04_1.py");}
+					if ($_POST[GPIO04_0]) {exec("sudo python /var/www/html/py/GPIO04/GPIO04_1.py");}
 
 	        // Funciones PHP del pin GPIO 17
-					if ($_POST[GPOI17_1]) {exec("sudo python /var/www/pidomo.mx/py/GPIO17/GPIO17_0.py");}
+					if ($_POST[GPOI17_1]) {exec("sudo python /var/www/html/py/GPIO17/GPIO17_0.py");}
 
-					if ($_POST[GPIO17_0]) {exec("sudo python /var/www/pidomo.mx/py/GPIO17/GPIO17_1.py");}
+					if ($_POST[GPIO17_0]) {exec("sudo python /var/www/html/py/GPIO17/GPIO17_1.py");}
 
 	       // Funciones PHP del pin GPIO 18
-					if ($_POST[GPOI18_1]) {exec("sudo python /var/www/pidomo.mx/py/GPIO18/GPIO18_0.py");}
+					if ($_POST[GPOI18_1]) {exec("sudo python /var/www/html/py/GPIO18/GPIO18_0.py");}
 
-					if ($_POST[GPIO18_0]) {exec("sudo python /var/www/pidomo.mx/py/GPIO18/GPIO18_1.py");}
+					if ($_POST[GPIO18_0]) {exec("sudo python /var/www/html/py/GPIO18/GPIO18_1.py");}
 
 	       // Funciones PHP del pin GPIO 22
-				  if ($_POST[GPOI22_1]) {exec("sudo python /var/www/pidomo.mx/py/GPIO22/GPIO22_0.py");}
+				        if ($_POST[GPOI22_1]) {exec("sudo python /var/www/html/py/GPIO22/GPIO22_0.py");}
 
-					if ($_POST[GPIO22_0]) {exec("sudo python /var/www/pidomo.mx/py/GPIO22/GPIO22_1.py");}
+					if ($_POST[GPIO22_0]) {exec("sudo python /var/www/html/py/GPIO22/GPIO22_1.py");}
 
 	       // Funciones PHP del pin GPIO 23
-				  if ($_POST[GPOI23_1]) {exec("sudo python /var/www/pidomo.mx/py/GPIO23/GPIO23_0.py");}
+				        if ($_POST[GPOI23_1]) {exec("sudo python /var/www/html/py/GPIO23/GPIO23_0.py");}
 
-					if ($_POST[GPIO23_0]) {exec("sudo python /var/www/pidomo.mx/py/GPIO23/GPIO23_1.py");}
+					if ($_POST[GPIO23_0]) {exec("sudo python /var/www/html/py/GPIO23/GPIO23_1.py");}
 
 	       // Funciones PHP del pin GPIO 27
-					if ($_POST[GPOI27_1]) {exec("sudo python /var/www/pidomo.mx/py/GPIO27/GPIO27_0.py");}
+					if ($_POST[GPOI27_1]) {exec("sudo python /var/www/html/py/GPIO27/GPIO27_0.py");}
 
-					if ($_POST[GPIO27_0]) {exec("sudo python /var/www/pidomo.mx/py/GPIO27/GPIO27_1.py");}
+					if ($_POST[GPIO27_0]) {exec("sudo python /var/www/html/py/GPIO27/GPIO27_1.py");}
 			?>
 	</body>
 </html>
